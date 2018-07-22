@@ -9,4 +9,7 @@ import retrofit2.http.POST;
 public interface APIInterface {
     @GET("welfareschme.php")
     Call<JSONResponse> getJSON();
+
+    @GET("ranks.php")
+    Call<JSONResponse> getSrank();
 }

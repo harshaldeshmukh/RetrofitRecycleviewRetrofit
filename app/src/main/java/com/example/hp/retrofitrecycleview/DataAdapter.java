@@ -27,9 +27,9 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(DataAdapter.ViewHolder viewHolder, int i) {
 
-        viewHolder.tv_name.setText(android.get(i).getWa_code());
+        //viewHolder.tv_name.setText(android.get(i).getWa_code());
         viewHolder.tv_version.setText(android.get(i).getWa_name());
-        viewHolder.tv_api_level.setText(android.get(i).getWat_code());
+       // viewHolder.tv_api_level.setText(android.get(i).getWat_code());
     }
 
     @Override

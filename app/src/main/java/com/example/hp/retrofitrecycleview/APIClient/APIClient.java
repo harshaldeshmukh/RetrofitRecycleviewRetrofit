@@ -4,7 +4,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class APIClient {
-    public  static  final  String BASE_URL="http://mrsa";
+    public  static  final  String BASE_URL="http://mrsac.maharashtra.gov.in/MobilePHP/";
    public static Retrofit retrofit= null;
 
    public  static Retrofit getApiclient(){
